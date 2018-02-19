@@ -29,3 +29,7 @@ function makeInt (n) {
 function makeInt (n) {
   return parseInt(n, 10)
 }
+
+ it('assumes base 10', function() {
+    expect(makeInt('0x2328')).toEqual(0)
+  })
