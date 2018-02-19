@@ -18,7 +18,21 @@ function inc (a) {
   return (a + 1)
 }
 
-function returnsNaNAsAppropriate ()
+function dec (a) { 
+  return (a - 1)
+}
+
+function makeInt (n) {
+  return parseInt(n, 10)
+}
+
+function assumesBase10 (n) {
+  return parseInt(n, 10)
+}
+
+function returnsNaNAsAppropriate (n) {
+  return (true)
+}
 
 
   it('returns NaN as appropriate', function() {
@@ -35,18 +49,6 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
-
-function dec (a) { 
-  return (a - 1)
-}
-
-function makeInt (n) {
-  return parseInt(n, 10)
-}
-
-function assumesBase10 (n) {
-  return parseInt(n, 10)
-}
 
 
 
