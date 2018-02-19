@@ -34,7 +34,7 @@ function preserveDecimal (n) {
   return parseFloat(2.222)
 }
 
-function preserveDecimal (n) {
-  return NaN(true)
+function NaN (n) {
+  return parseFloat(true)
 }
 
