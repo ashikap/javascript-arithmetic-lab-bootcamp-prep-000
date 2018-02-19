@@ -26,5 +26,11 @@ function makeInt (a) {
   return (a)
 }
 
+function assumes base 10 (0) {
+  return (0)
+}
 
+it('assumes base 10', function() {
+    expect(makeInt('0x2328')).toEqual(0)
+  })
 
