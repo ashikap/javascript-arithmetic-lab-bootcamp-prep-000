@@ -30,7 +30,5 @@ function assumesBase10 (n) {
   return parseInt(n, 10)
 }
 
-function returnsNaNAsAppropriate (n) {
-  return (true)
-}
+
 
