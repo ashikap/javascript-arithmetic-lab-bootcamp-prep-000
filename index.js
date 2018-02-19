@@ -33,3 +33,7 @@ function assumesBase10 (n) {
 function preserveDecimal (n) {
   return parseFloat(2.222)
 }
+
+function isNaN (n) {
+  return (true)
+}
