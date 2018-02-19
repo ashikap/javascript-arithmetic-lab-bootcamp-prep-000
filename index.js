@@ -26,8 +26,5 @@ function makeInt (a) {
   return (a)
 }
 
-function assumes base (10) {
-  return (0)
-}
 
 
